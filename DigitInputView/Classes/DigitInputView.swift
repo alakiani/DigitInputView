@@ -165,7 +165,7 @@ open class DigitInputView: UIView {
         super.layoutSubviews()
         
         // width to height ratio
-        let ratio: CGFloat = 0.75
+        let ratio: CGFloat = 0.85
         
         // Now we find the optimal font size based on the view size
         // and set the frame for the labels
