@@ -119,7 +119,7 @@ open class DigitInputView: UIView {
     fileprivate var textField: UITextField?
     fileprivate var tapGestureRecognizer: UITapGestureRecognizer?
     
-    fileprivate var underlineHeight: CGFloat = 4
+    public var underlineHeight: CGFloat = 4
     fileprivate var spacing: CGFloat = 8
     
     override open var canBecomeFirstResponder: Bool {
